@@ -2,7 +2,8 @@
   "name": "angular-dio-project",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 3001"
   },
   "version": "1.0.0",
   "main": "index.js",
@@ -10,6 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@angular/cli": "^16.2.2",
     "json-server": "^0.17.3"
   }
 }
